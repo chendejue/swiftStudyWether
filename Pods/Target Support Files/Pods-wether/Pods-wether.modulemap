@@ -1,0 +1,6 @@
+framework module Pods_wether {
+  umbrella header "Pods-wether-umbrella.h"
+
+  export *
+  module * { export * }
+}

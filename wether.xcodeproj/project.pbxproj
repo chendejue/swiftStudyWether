@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AD185CAA318EB07970D60A8 /* Pods_wether.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECED9E345831000527A40ED1 /* Pods_wether.framework */; };
 		AA8EC1651EFE855E00DD8060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8EC1641EFE855E00DD8060 /* AppDelegate.swift */; };
 		AA8EC1671EFE855E00DD8060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8EC1661EFE855E00DD8060 /* ViewController.swift */; };
 		AA8EC16A1EFE855E00DD8060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8EC1681EFE855E00DD8060 /* Main.storyboard */; };
 		AA8EC16D1EFE855E00DD8060 /* wether.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8EC16B1EFE855E00DD8060 /* wether.xcdatamodeld */; };
 		AA8EC16F1EFE855E00DD8060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8EC16E1EFE855E00DD8060 /* Assets.xcassets */; };
 		AA8EC1721EFE855E00DD8060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8EC1701EFE855E00DD8060 /* LaunchScreen.storyboard */; };
+		AA8EC17A1EFE859B00DD8060 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AA8EC1791EFE859B00DD8060 /* Podfile */; };
+		AA8EC17C1EFEAD5A00DD8060 /* WetherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8EC17B1EFEAD5A00DD8060 /* WetherService.swift */; };
+		AA8EC17E1EFEB02F00DD8060 /* Wether.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8EC17D1EFEB02F00DD8060 /* Wether.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80FAE8502CFDFA366226B2FC /* Pods-wether.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wether.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wether/Pods-wether.debug.xcconfig"; sourceTree = "<group>"; };
+		8A739ABC836C615CF3E351E0 /* Pods-wether.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wether.release.xcconfig"; path = "Pods/Target Support Files/Pods-wether/Pods-wether.release.xcconfig"; sourceTree = "<group>"; };
 		AA8EC1611EFE855E00DD8060 /* wether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8EC1641EFE855E00DD8060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA8EC1661EFE855E00DD8060 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		AA8EC16E1EFE855E00DD8060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA8EC1711EFE855E00DD8060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA8EC1731EFE855E00DD8060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA8EC1791EFE859B00DD8060 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		AA8EC17B1EFEAD5A00DD8060 /* WetherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WetherService.swift; sourceTree = "<group>"; };
+		AA8EC17D1EFEB02F00DD8060 /* Wether.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wether.swift; sourceTree = "<group>"; };
+		ECED9E345831000527A40ED1 /* Pods_wether.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wether.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD185CAA318EB07970D60A8 /* Pods_wether.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4C69B6F0E3EF3D3F92CCC56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECED9E345831000527A40ED1 /* Pods_wether.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA8EC1581EFE855E00DD8060 = {
 			isa = PBXGroup;
 			children = (
+				AA8EC1791EFE859B00DD8060 /* Podfile */,
 				AA8EC1631EFE855E00DD8060 /* wether */,
 				AA8EC1621EFE855E00DD8060 /* Products */,
+				BCE9C5FFAB5D2DF84884B729 /* Pods */,
+				A4C69B6F0E3EF3D3F92CCC56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +85,19 @@
 				AA8EC1701EFE855E00DD8060 /* LaunchScreen.storyboard */,
 				AA8EC1731EFE855E00DD8060 /* Info.plist */,
 				AA8EC16B1EFE855E00DD8060 /* wether.xcdatamodeld */,
+				AA8EC17B1EFEAD5A00DD8060 /* WetherService.swift */,
+				AA8EC17D1EFEB02F00DD8060 /* Wether.swift */,
 			);
 			path = wether;
+			sourceTree = "<group>";
+		};
+		BCE9C5FFAB5D2DF84884B729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80FAE8502CFDFA366226B2FC /* Pods-wether.debug.xcconfig */,
+				8A739ABC836C615CF3E351E0 /* Pods-wether.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA8EC1761EFE855E00DD8060 /* Build configuration list for PBXNativeTarget "wether" */;
 			buildPhases = (
+				39459CCE764ACB2133A43CEA /* [CP] Check Pods Manifest.lock */,
 				AA8EC15D1EFE855E00DD8060 /* Sources */,
 				AA8EC15E1EFE855E00DD8060 /* Frameworks */,
 				AA8EC15F1EFE855E00DD8060 /* Resources */,
+				7AA0C21A752D52C7E978F86A /* [CP] Embed Pods Frameworks */,
+				A7BA38962C8BAA9127A72D72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,11 +165,74 @@
 			files = (
 				AA8EC1721EFE855E00DD8060 /* LaunchScreen.storyboard in Resources */,
 				AA8EC16F1EFE855E00DD8060 /* Assets.xcassets in Resources */,
+				AA8EC17A1EFE859B00DD8060 /* Podfile in Resources */,
 				AA8EC16A1EFE855E00DD8060 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39459CCE764ACB2133A43CEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wether-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AA0C21A752D52C7E978F86A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-wether/Pods-wether-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wether/Pods-wether-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7BA38962C8BAA9127A72D72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wether/Pods-wether-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA8EC15D1EFE855E00DD8060 /* Sources */ = {
@@ -142,7 +241,9 @@
 			files = (
 				AA8EC1671EFE855E00DD8060 /* ViewController.swift in Sources */,
 				AA8EC16D1EFE855E00DD8060 /* wether.xcdatamodeld in Sources */,
+				AA8EC17C1EFEAD5A00DD8060 /* WetherService.swift in Sources */,
 				AA8EC1651EFE855E00DD8060 /* AppDelegate.swift in Sources */,
+				AA8EC17E1EFEB02F00DD8060 /* Wether.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +364,7 @@
 		};
 		AA8EC1771EFE855E00DD8060 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80FAE8502CFDFA366226B2FC /* Pods-wether.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MVURPMPJKS;
@@ -276,6 +378,7 @@
 		};
 		AA8EC1781EFE855E00DD8060 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A739ABC836C615CF3E351E0 /* Pods-wether.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MVURPMPJKS;
@@ -306,6 +409,7 @@
 				AA8EC1781EFE855E00DD8060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
